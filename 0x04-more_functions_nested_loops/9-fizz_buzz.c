@@ -23,10 +23,9 @@ int main(void)
 		else if (d % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%d", d);
+			printf("%d ", d);
 	}
 	printf("\n");
-	printf(" ");
 	return (0);
 }
 
