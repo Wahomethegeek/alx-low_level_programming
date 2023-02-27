@@ -1,4 +1,4 @@
-#include "main.h"
+#iniclude "main.h"
 
 /**
  * _puts - prints a string
@@ -9,10 +9,10 @@
 void _puts(char *str)
 {
 	int d = 0;
-:
-	while (str[i] != '\0')
+
+	while (str[d] != '\0')
 	{
-		_putchar(str[i]);
+		_putchar(str[d]);
 		i++;
 	}
 	_putchar('\n');
