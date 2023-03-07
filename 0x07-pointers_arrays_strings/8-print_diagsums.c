@@ -8,17 +8,17 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int z, b, c, d = 0, x = 0;
+	int i, j, p, l = 0, r = 0;
 
-	for (z = 0; z < size; z++)
+	for (i = 0; i < size; i++)
 	{
-		c = (z * size) + z;
-		d += *(a + c);
+		p = (i * size) + i;
+		l += *(a + p);
 	}
-	for (b = 0; b < size; b++)
+	for (j = 0; j < size; j++)
 	{
-		c = (b * size) + (size - 1 - b);
-		x += *(a + c);
+		p = (j * size) + (size - 1 - j);
+		r += *(a + p);
 	}
-	printf("%z, %z\n", d, x);
+	printf("%i, %i\n", l, r);
 }
