@@ -6,7 +6,7 @@
  * free_list - Releasing memory allocated for a list
  * @head: a pointer to the first node of the list
  */
-void free_list(list_list *head)
+void free_list(list_t *head)
 {
 	if (head)
 	{
