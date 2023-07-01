@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include <lists.h>
+#include "lists.h"
 
 /**
  * _strlen - returns the lenght of a string
@@ -12,11 +12,11 @@ int _strlen(const char *s)
 {
 	int z = 0;
 
-	while (s[i] != '\0')
+	while (s[z] != '\0')
 	{
 		z++;
 	}
-	return (0);
+	return (z);
 }
 
 /**
