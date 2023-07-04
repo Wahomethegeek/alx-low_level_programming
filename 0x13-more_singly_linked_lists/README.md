@@ -1,2 +1,3 @@
-# More singly linked lists
-- This project is help understand how to use linked lists
+# Learnig more about singly linked lists
+
+0. Write a function that prints all the elements of a listint list
