@@ -2,6 +2,8 @@
 
 0. Write a function that prints all the elements of a listint list
 1. print the number of elements (nodes) a single linked list only contain data and link
+  
+   ```c
     int countNodes(struct node *head)
 {
         int count = 0;
@@ -15,4 +17,4 @@
 
         return count;
 }
-
+   ```
