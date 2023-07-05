@@ -6,7 +6,7 @@
  * @index: The data the node returns
  * Return: pointing to the node in return
  */
-listint_t get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int i;
 
