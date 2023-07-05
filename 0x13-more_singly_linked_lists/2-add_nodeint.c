@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint - Inserting a node at the beginning of a list
- * @head: The first node of the list
+ * @head: pointing to the first node of the list
  * @n: Data of the nodes
  * Return: address of the new element of NULL if it failed
  */
